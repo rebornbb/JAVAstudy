@@ -1,0 +1,32 @@
+import java.util.Scanner;
+import SlimeLand.*;
+public class main {
+
+public static void main(String[] args) {
+
+    Sword sword = new Sword();
+    Force force = new Force();
+       
+        inventory inventory = new inventory();
+        inventory.printInventory();
+        
+       
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("------------------------------------------------");
+        // System.out.println("사용할 아이템을 선택해주세요.");
+       
+
+        // inventory choice =new inventory();
+        // choice.printitems();
+      
+        // inventory items =new inventory();
+        // items.printitems();
+
+        inventory.useitem();
+
+        // sword.printsword(force);
+        // force.info();
+
+
+    }   
+}
